@@ -10,11 +10,13 @@ function which converts each node in the network to a low-dimensional latent rep
 representations can then be used as features for common tasks on graphs such as classification,
 clustering, link prediction, and visualization.
 
-References:
-Haochen Chen, Bryan Perozzi2, Rami Al-Rfou2, and Steven Skiena1: A Tutorial on Network Embeddings. August 9, 2018
-https://arxiv.org/pdf/1808.02590.pdf
+
 
 ![](adjacency_matrix_graph.png)
 
 - Scenario: I create the random connected network with 500 nodes to demostrate the application of network embedding. You can see the social network has 3 communities (graph 2). We convert it to be a 2 dimension graph (graph 3)
 ![](embedding_graph.png)
+
+References:
+Haochen Chen, Bryan Perozzi2, Rami Al-Rfou2, and Steven Skiena1: A Tutorial on Network Embeddings. August 9, 2018
+https://arxiv.org/pdf/1808.02590.pdf
