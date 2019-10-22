@@ -1,4 +1,4 @@
-## Introduction:  Network Embedding Applications
+## Introduction:  Network Embedding (DeepWalk Method)Applications
 - **Network embedding methods aim at learning low-dimensional latent representation of nodes
 in a network**. These representations can be used as features for a wide range of tasks on graphs
 such as classification, clustering, link prediction, and visualization
