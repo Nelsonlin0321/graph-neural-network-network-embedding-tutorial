@@ -40,3 +40,12 @@ https://arxiv.org/pdf/1808.02590.pdf
 
 - 场景： 我创建了五百个随机节点的网络来演示一个network embeddding 的实现和应用，你可以看到这个社交网络有个三个社区，我们通过embedding 的方式转化其为二维的向量。
 ![](embedding_graph.png)
+
+# Increment training of Network Embedding
+- Introduction : Network Embedding is known as a dimension reduction algorithm to represent and extract features from high-dimension. As we known,typical algorithms like SVD,PCA and MDS if a high-dimension matrix has a slight change we need process dimension reduction again but we do not need to train the network again if we are using network embedding methods to do dimension reduction. 
+- Advatages:Due  to this superior characteristics, network emedding method saves a lot of computing resource and can be a fast-changing and real-time method to represent user's features because we only need to train new nodes instead of re-training whole graph.
+- Application scenario Take social networks as an example, when new users register and have connections others, the graph of network should be different and we need to have new features to represent those new users like which commmunities they belong to.
+
+This jupyter notebook shows an example of how to do increment training of existing embedding matrix when new nodes appear
+: we already have trained embedding network of 290 nodes but now we increment training to know their features and which communitiy they should beglong to 
+![](increment_training.png)
